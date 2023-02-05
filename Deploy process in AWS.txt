@@ -1,0 +1,17 @@
+1. click on EC2
+2. Launch instance
+To get started, launch an Amazon EC2 instance, which is a virtual server in the cloud.
+3. Add Key Pair(Login)
+4. It will automatically download
+5. $ sudo yum update
+6. $ sudo yum install git
+7. Check the version then use command git clone 
+git clone https://github.com/RaviTambade/SDM.git
+8. curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
+9. sudo yum install -y nodejs
+10. ls command 
+11. Install the command npm install
+12. node filename for running 
+13. In security -> Edit Inbound rules -> Add rule -> Source type =
+   Anywhere IPV4 ,type= All Traffic
+14.  Terminate the instance......

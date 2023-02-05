@@ -1,0 +1,36 @@
+1. Install Putty - > Add IP address -> Go to data ==> Auto-Login username (Ubuntu)
+   Put the name on that which in AWS 
+- Go to SSH -> Auth -> Credentials => Browse the pvt key '.ppk' 
+
+2.   sudo install update 
+3.    sudo apt install git
+ 4.    git -v
+5.     sudo systemctl status docker
+6.    sudo apt install docker.io
+7.    sudo docker images
+8.    sudo docker ps
+9.   ubuntu@ip-172-31-15-254:~$ git clone https://github.com/ayobabes/usingDocker.git
+Cloning into 'usingDocker'...    Check with  ls
+10.  ubuntu@ip-172-31-15-254:~/usingDocker$ ls
+Dockerfile  README.md  package.json  profile  server.js
+11.   mkdir 
+12.  
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo docker build -t kszcontainer  .  (Dot is necessary)
+Successfully built cfc68c5c700e
+Successfully tagged kszcontainer:latest
+
+13. 
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo systemctl start docker
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo systemctl status docker
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo systemctl start docker
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo docker pull nginx
+
+13. sudo apt install nodejs
+14.  npm i express
+
+15.
+ubuntu@ip-172-31-15-254:~/usingDocker$ sudo docker run kszcontainer
+Server is running on port 9000
+
+16. 13. In security -> Edit Inbound rules -> Add rule -> Source type =
+   Anywhere IPV4 ,type= All Traffic
